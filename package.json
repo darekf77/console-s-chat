@@ -1,19 +1,32 @@
 {
+  "tnp": {
+    "resources": [],
+    "type": "navi",
+    "overrided": {
+      "linkedFolders": [],
+      "ignoreDepsPattern": [
+        "*"
+      ],
+      "includeAsDev": [],
+      "includeOnly": [],
+      "dependencies": {}
+    },
+    "linkedProjects": [],
+    "libReleaseOptions": {
+      "nodts": false,
+      "obscure": false,
+      "ugly": false
+    }
+  },
   "name": "console-s-chat",
   "version": "1.0.0",
-  "description": "ConsoleSChat ===================",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/darekf77/console-s-chat.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/darekf77/console-s-chat/issues"
   },
-  "homepage": "https://github.com/darekf77/console-s-chat#readme"
+  "dependencies": {},
+  "devDependencies": {}
 }
